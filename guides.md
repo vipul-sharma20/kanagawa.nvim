@@ -1,4 +1,3 @@
-|---------------------------------------------------------|---------------|-----------|----------------------------|
 |                                                         | Name          | Hex       | Usage                      |
 | :-----------------------------------------------------: | :------------ | :-------: | :------------------------- |
 | <img src="assets/circles/fujiWhite.svg" width="30">     | fujiWhite     | `#DCD7BA` | Default foreground         |
@@ -38,4 +37,3 @@
 | <img src="assets/circles/peachRed.svg" width="30">      | peachRed      | `#FF5D62` | Standout specials          |
 | <img src="assets/circles/surimiOrange.svg" width="30">  | surimiOrange  | `#FFA066` | Constants, imports,        |
 | <img src="assets/circles/katanaGray.svg" width="30">    | katanaGray    | `#717C7C` | Deprecated                 |
-|---------------------------------------------------------|---------------|-----------|----------------------------|
