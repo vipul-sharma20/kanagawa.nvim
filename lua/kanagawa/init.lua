@@ -1,6 +1,6 @@
 local M = {}
 
-M.colors = require'kanagawa.colors'
+M.colors = require("kanagawa.colors")
 M.colors:make_theme()
 M.hlgroups = nil
 
@@ -12,7 +12,7 @@ function M.load()
     vim.g.colors_name = "kanagawa"
     vim.o.termguicolors = true
 
-    local hlgroups = M.hlgroups or require'kanagawa.hlgroups' -- M.hlgroups set by setup()
+    local hlgroups = M.hlgroups or require("kanagawa.hlgroups") -- M.hlgroups set by setup()
 
     for group, colors in pairs(hlgroups) do
         if not vim.tbl_isempty(colors) then
